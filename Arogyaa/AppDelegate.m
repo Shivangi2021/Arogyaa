@@ -15,6 +15,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    if (@available(iOS 13.0, *))
+    {
+        _window.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+    }
+    else
+    {
+        // Fallback on earlier versions
+    }
+    
     // Override point for customization after application launch.
     return YES;
 }

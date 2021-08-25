@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidSansMerged-Regular.ttf">
+            <string>DroidSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Slider123">
+            <connections>
+                <outlet property="namelabelss" destination="nue-Z1-tmH" id="OkZ-ka-pLy"/>
+                <outlet property="pagger" destination="5dg-o5-NGw" id="s5a-Gc-9gz"/>
+                <outlet property="slider" destination="0GU-IO-acF" id="UX6-cy-nI3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="251"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-IO-acF">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="252"/>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="5dg-o5-NGw">
+                    <rect key="frame" x="102" y="213" width="171" height="37"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="171" id="E56-eI-aAC"/>
+                        <constraint firstAttribute="height" constant="37" id="ZRZ-Un-Qs8"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="currentPageIndicatorTintColor" red="0.3921568627" green="0.68627450980000004" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pageControl>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nue-Z1-tmH">
+                    <rect key="frame" x="9" y="209" width="59" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="59" id="MJS-kD-fSD"/>
+                        <constraint firstAttribute="height" constant="37" id="gpt-fS-Gqe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DroidSans" family="Droid Sans" pointSize="27"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="0GU-IO-acF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0Ed-T8-DMV"/>
+                <constraint firstItem="nue-Z1-tmH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="HBj-1S-Wch"/>
+                <constraint firstItem="0GU-IO-acF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Klz-Uq-KN7"/>
+                <constraint firstAttribute="bottom" secondItem="nue-Z1-tmH" secondAttribute="bottom" constant="5" id="cYo-MA-dL8"/>
+                <constraint firstAttribute="bottom" secondItem="0GU-IO-acF" secondAttribute="bottom" constant="-1" id="gHg-N9-4HG"/>
+                <constraint firstAttribute="trailing" secondItem="0GU-IO-acF" secondAttribute="trailing" id="kk6-cv-nxQ"/>
+                <constraint firstAttribute="bottom" secondItem="5dg-o5-NGw" secondAttribute="bottom" constant="1" id="z0x-7f-4aZ"/>
+                <constraint firstItem="5dg-o5-NGw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zMB-Q1-njd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="23.199999999999999" y="-160.56971514242881"/>
+        </view>
+    </objects>
+</document>

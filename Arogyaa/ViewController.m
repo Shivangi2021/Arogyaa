@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "LoginViewController.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    LoginViewController *add =
+    [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+
+       [self.navigationController pushViewController:add animated:YES];
 }
 
 
