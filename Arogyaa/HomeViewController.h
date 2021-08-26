@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (IBAction)MenuTwo:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *BlurImage;
 @property (weak, nonatomic) IBOutlet UIButton *backgroundImage;
+@property (weak, nonatomic) IBOutlet UICollectionView *hospitalCollect;
 
 @end
 

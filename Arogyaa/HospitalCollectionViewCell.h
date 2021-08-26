@@ -10,6 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HospitalCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIView *CellView;
+@property (weak, nonatomic) IBOutlet UIImageView *MainImage;
+@property (weak, nonatomic) IBOutlet UILabel *NameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *AddressLabel;
 
 @end
 

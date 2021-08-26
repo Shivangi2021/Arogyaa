@@ -46,6 +46,16 @@
 		8467F5F726D50D3700D1B90D /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F5E526D50D3700D1B90D /* UIImageView+HighlightedWebCache.m */; };
 		8467F5FC26D50F9600D1B90D /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F5FB26D50F9600D1B90D /* ForgetViewController.m */; };
 		8467F60026D516CC00D1B90D /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F5FF26D516CC00D1B90D /* ACFloatingTextField.m */; };
+		849955FC26D756E400761635 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955E926D756E200761635 /* UIView+ViewController.m */; };
+		849955FD26D756E400761635 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955EB26D756E300761635 /* GridCell.m */; };
+		849955FE26D756E400761635 /* NVBnbCollectionViewParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955EC26D756E300761635 /* NVBnbCollectionViewParallaxCell.m */; };
+		849955FF26D756E400761635 /* ParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955EE26D756E300761635 /* ParallaxCell.m */; };
+		8499560026D756E400761635 /* NinaBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955EF26D756E300761635 /* NinaBaseView.m */; };
+		8499560126D756E400761635 /* ReviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955F226D756E300761635 /* ReviewTableViewCell.m */; };
+		8499560226D756E400761635 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849955F326D756E400761635 /* Header.xib */; };
+		8499560326D756E400761635 /* NVBnbCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955F426D756E400761635 /* NVBnbCollectionViewLayout.m */; };
+		8499560426D756E400761635 /* NVBnbCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955F626D756E400761635 /* NVBnbCollectionView.m */; };
+		8499560526D756E400761635 /* NinaPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955FA26D756E400761635 /* NinaPagerView.m */; };
 		84B86CD926D5FB880032399A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86CD826D5FB880032399A /* HomeViewController.m */; };
 		84B86CE726D60A1B0032399A /* SliderBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B86CE526D60A1B0032399A /* SliderBanner.xib */; };
 		84B86CE826D60A1B0032399A /* SliderBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86CE626D60A1B0032399A /* SliderBanner.m */; };
@@ -55,6 +65,8 @@
 		84B86D0E26D6212B0032399A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86D0C26D6212B0032399A /* SWRevealViewController.m */; };
 		84B86D1226D621B40032399A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86D1126D621B40032399A /* MenuViewController.m */; };
 		84B86D1626D621C20032399A /* menuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86D1526D621C20032399A /* menuTableViewCell.m */; };
+		84B86DBA26D65CAD0032399A /* ConsultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86DB926D65CAD0032399A /* ConsultViewController.m */; };
+		84B86DBE26D65CC40032399A /* consultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86DBD26D65CC40032399A /* consultTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +144,26 @@
 		8467F5FB26D50F9600D1B90D /* ForgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
 		8467F5FE26D516CC00D1B90D /* ACFloatingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFloatingTextField.h; sourceTree = "<group>"; };
 		8467F5FF26D516CC00D1B90D /* ACFloatingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFloatingTextField.m; sourceTree = "<group>"; };
+		849955E826D756E200761635 /* ReviewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewTableViewCell.h; sourceTree = "<group>"; };
+		849955E926D756E200761635 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		849955EA26D756E300761635 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		849955EB26D756E300761635 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+		849955EC26D756E300761635 /* NVBnbCollectionViewParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBnbCollectionViewParallaxCell.m; sourceTree = "<group>"; };
+		849955ED26D756E300761635 /* ParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxCell.h; sourceTree = "<group>"; };
+		849955EE26D756E300761635 /* ParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxCell.m; sourceTree = "<group>"; };
+		849955EF26D756E300761635 /* NinaBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaBaseView.m; sourceTree = "<group>"; };
+		849955F026D756E300761635 /* NinaBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaBaseView.h; sourceTree = "<group>"; };
+		849955F126D756E300761635 /* NinaPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaPagerView.h; sourceTree = "<group>"; };
+		849955F226D756E300761635 /* ReviewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewTableViewCell.m; sourceTree = "<group>"; };
+		849955F326D756E400761635 /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		849955F426D756E400761635 /* NVBnbCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBnbCollectionViewLayout.m; sourceTree = "<group>"; };
+		849955F526D756E400761635 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		849955F626D756E400761635 /* NVBnbCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBnbCollectionView.m; sourceTree = "<group>"; };
+		849955F726D756E400761635 /* NVBnbCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBnbCollectionViewLayout.h; sourceTree = "<group>"; };
+		849955F826D756E400761635 /* UIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIParameter.h; sourceTree = "<group>"; };
+		849955F926D756E400761635 /* NVBnbCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBnbCollectionView.h; sourceTree = "<group>"; };
+		849955FA26D756E400761635 /* NinaPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaPagerView.m; sourceTree = "<group>"; };
+		849955FB26D756E400761635 /* NVBnbCollectionViewParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBnbCollectionViewParallaxCell.h; sourceTree = "<group>"; };
 		84B86CD726D5FB880032399A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		84B86CD826D5FB880032399A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		84B86CE426D60A1A0032399A /* SliderBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBanner.h; sourceTree = "<group>"; };
@@ -149,6 +181,10 @@
 		84B86D1126D621B40032399A /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		84B86D1426D621C20032399A /* menuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menuTableViewCell.h; sourceTree = "<group>"; };
 		84B86D1526D621C20032399A /* menuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuTableViewCell.m; sourceTree = "<group>"; };
+		84B86DB826D65CAD0032399A /* ConsultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsultViewController.h; sourceTree = "<group>"; };
+		84B86DB926D65CAD0032399A /* ConsultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsultViewController.m; sourceTree = "<group>"; };
+		84B86DBC26D65CC40032399A /* consultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consultTableViewCell.h; sourceTree = "<group>"; };
+		84B86DBD26D65CC40032399A /* consultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = consultTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +217,8 @@
 		8467F57626D4FC7000D1B90D /* Arogyaa */ = {
 			isa = PBXGroup;
 			children = (
+				849955E726D756BA00761635 /* PaggerView */,
+				84B86DB726D65C8E0032399A /* Consult */,
 				84B86D0A26D621150032399A /* Navigation */,
 				84B86CDC26D606EE0032399A /* Slider */,
 				84B86CD626D5F7A30032399A /* Home */,
@@ -325,6 +363,33 @@
 			path = ForgetView;
 			sourceTree = "<group>";
 		};
+		849955E726D756BA00761635 /* PaggerView */ = {
+			isa = PBXGroup;
+			children = (
+				849955EA26D756E300761635 /* GridCell.h */,
+				849955EB26D756E300761635 /* GridCell.m */,
+				849955F326D756E400761635 /* Header.xib */,
+				849955F026D756E300761635 /* NinaBaseView.h */,
+				849955EF26D756E300761635 /* NinaBaseView.m */,
+				849955F126D756E300761635 /* NinaPagerView.h */,
+				849955FA26D756E400761635 /* NinaPagerView.m */,
+				849955F926D756E400761635 /* NVBnbCollectionView.h */,
+				849955F626D756E400761635 /* NVBnbCollectionView.m */,
+				849955F726D756E400761635 /* NVBnbCollectionViewLayout.h */,
+				849955F426D756E400761635 /* NVBnbCollectionViewLayout.m */,
+				849955FB26D756E400761635 /* NVBnbCollectionViewParallaxCell.h */,
+				849955EC26D756E300761635 /* NVBnbCollectionViewParallaxCell.m */,
+				849955ED26D756E300761635 /* ParallaxCell.h */,
+				849955EE26D756E300761635 /* ParallaxCell.m */,
+				849955E826D756E200761635 /* ReviewTableViewCell.h */,
+				849955F226D756E300761635 /* ReviewTableViewCell.m */,
+				849955F826D756E400761635 /* UIParameter.h */,
+				849955F526D756E400761635 /* UIView+ViewController.h */,
+				849955E926D756E200761635 /* UIView+ViewController.m */,
+			);
+			name = PaggerView;
+			sourceTree = "<group>";
+		};
 		84B86CD626D5F7A30032399A /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +426,17 @@
 				84B86D0C26D6212B0032399A /* SWRevealViewController.m */,
 			);
 			name = Navigation;
+			sourceTree = "<group>";
+		};
+		84B86DB726D65C8E0032399A /* Consult */ = {
+			isa = PBXGroup;
+			children = (
+				84B86DB826D65CAD0032399A /* ConsultViewController.h */,
+				84B86DB926D65CAD0032399A /* ConsultViewController.m */,
+				84B86DBC26D65CC40032399A /* consultTableViewCell.h */,
+				84B86DBD26D65CC40032399A /* consultTableViewCell.m */,
+			);
+			path = Consult;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,6 +499,7 @@
 				8467F5BC26D50C7300D1B90D /* CountryListViewController.xib in Resources */,
 				84B86CE726D60A1B0032399A /* SliderBanner.xib in Resources */,
 				8467F58426D4FC7300D1B90D /* Assets.xcassets in Resources */,
+				8499560226D756E400761635 /* Header.xib in Resources */,
 				8467F5AB26D50BEA00D1B90D /* WSCalendarView.xib in Resources */,
 				8467F5B826D50C7300D1B90D /* countries.json in Resources */,
 				8467F58226D4FC7000D1B90D /* Main.storyboard in Resources */,
@@ -441,6 +518,7 @@
 				8467F57F26D4FC7000D1B90D /* ViewController.m in Sources */,
 				8467F5AA26D50BEA00D1B90D /* WSCalendarView.m in Sources */,
 				8467F57926D4FC7000D1B90D /* AppDelegate.m in Sources */,
+				849955FC26D756E400761635 /* UIView+ViewController.m in Sources */,
 				8467F5F026D50D3700D1B90D /* SDWebImageDecoder.m in Sources */,
 				8467F5C126D50CE000D1B90D /* UIView+Toast.m in Sources */,
 				8467F5AD26D50BEA00D1B90D /* WSLabel.m in Sources */,
@@ -455,27 +533,37 @@
 				8467F5E926D50D3700D1B90D /* SDImageCache.m in Sources */,
 				8467F5F226D50D3700D1B90D /* UIImageView+WebCache.m in Sources */,
 				84B86CF026D60B540032399A /* topCollectionViewCell.m in Sources */,
+				8499560126D756E400761635 /* ReviewTableViewCell.m in Sources */,
 				84B86D1226D621B40032399A /* MenuViewController.m in Sources */,
 				84B86D1626D621C20032399A /* menuTableViewCell.m in Sources */,
+				84B86DBA26D65CAD0032399A /* ConsultViewController.m in Sources */,
 				8467F5EF26D50D3700D1B90D /* UIImage+MultiFormat.m in Sources */,
 				8467F5EC26D50D3700D1B90D /* UIImage+animatedGIF.m in Sources */,
 				8467F60026D516CC00D1B90D /* ACFloatingTextField.m in Sources */,
+				8499560426D756E400761635 /* NVBnbCollectionView.m in Sources */,
 				8467F5EA26D50D3700D1B90D /* SDWebImageCompat.m in Sources */,
 				8467F5F126D50D3700D1B90D /* UIButton+WebCache.m in Sources */,
+				8499560526D756E400761635 /* NinaPagerView.m in Sources */,
 				8467F5ED26D50D3700D1B90D /* SDWebImageManager.m in Sources */,
 				8467F5BA26D50C7300D1B90D /* CountryListDataSource.m in Sources */,
 				84B86D0E26D6212B0032399A /* SWRevealViewController.m in Sources */,
 				84B86CF426D60B620032399A /* HospitalCollectionViewCell.m in Sources */,
 				8467F5FC26D50F9600D1B90D /* ForgetViewController.m in Sources */,
 				84B86CD926D5FB880032399A /* HomeViewController.m in Sources */,
+				8499560326D756E400761635 /* NVBnbCollectionViewLayout.m in Sources */,
 				8467F5F626D50D3700D1B90D /* MKAnnotationView+WebCache.m in Sources */,
 				8467F5B926D50C7300D1B90D /* CountryCell.m in Sources */,
 				84B86CE826D60A1B0032399A /* SliderBanner.m in Sources */,
+				8499560026D756E400761635 /* NinaBaseView.m in Sources */,
 				8467F5EB26D50D3700D1B90D /* UIImage+GIF.m in Sources */,
 				8467F5AC26D50BEA00D1B90D /* WSEventView.m in Sources */,
 				8467F5BB26D50C7300D1B90D /* CountryListViewController.m in Sources */,
 				8467F5F726D50D3700D1B90D /* UIImageView+HighlightedWebCache.m in Sources */,
+				849955FF26D756E400761635 /* ParallaxCell.m in Sources */,
 				8467F5F526D50D3700D1B90D /* UIView+WebCacheOperation.m in Sources */,
+				84B86DBE26D65CC40032399A /* consultTableViewCell.m in Sources */,
+				849955FD26D756E400761635 /* GridCell.m in Sources */,
+				849955FE26D756E400761635 /* NVBnbCollectionViewParallaxCell.m in Sources */,
 				8467F5EE26D50D3700D1B90D /* UIImage+WebP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
