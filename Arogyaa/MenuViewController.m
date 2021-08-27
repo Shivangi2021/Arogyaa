@@ -19,10 +19,11 @@ NSArray *celllabelarray;
 
 @implementation MenuViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
    
-    celllabelarray= [[NSArray alloc]initWithObjects:@"Consult Now",@"Lat Test",@"Previous",@"Payment history",@"Setting",@"Help & Support",@"Logout",nil];
+    celllabelarray= [[NSArray alloc]initWithObjects:@"Consult Now",@"Lab Test",@"Previous",@"Payment history",@"Setting",@"Help & Support",@"Logout",nil];
 }
 
 /*
@@ -58,7 +59,8 @@ NSArray *celllabelarray;
     
     cellAnsh.CellLabel.text =[celllabelarray objectAtIndex:indexPath.row];
     
- //   cellAnsh.CellImage.image =[UIImage imageNamed: [cellimgarray objectAtIndex:indexPath.row]];
+
+    //   cellAnsh.CellImage.image =[UIImage imageNamed: [cellimgarray objectAtIndex:indexPath.row]];
     
     return cellAnsh;
 }

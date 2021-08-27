@@ -28,6 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *BlurImage;
 @property (weak, nonatomic) IBOutlet UIButton *backgroundImage;
 @property (weak, nonatomic) IBOutlet UICollectionView *hospitalCollect;
+@property (weak, nonatomic) IBOutlet UIButton *LabButton;
+- (IBAction)LabAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *SeemoreButton;
+- (IBAction)SeeAction:(id)sender;
 
 @end
 

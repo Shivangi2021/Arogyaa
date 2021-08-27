@@ -12,6 +12,7 @@
 #import "SWRevealViewController.h"
 #import "LoginViewController.h"
 #import "ConsultViewController.h"
+#import "LabViewController.h"
 
 @interface HomeViewController ()
 {
@@ -44,6 +45,8 @@
     
             [_SliderVieww setupSliderView];
     
+    _LabButton.layer.cornerRadius = 6.0f;
+    _SeemoreButton.layer.cornerRadius = 6.0f;
     
     NSString *defaultesss = [[NSUserDefaults standardUserDefaults]
                                       stringForKey:@"logoutstatus"];
@@ -228,11 +231,14 @@ forItemAtIndexPath:(NSIndexPath *)indexPath;
 
       //2. Define the final state (After the animation) and commit the animation
       [UIView beginAnimations:@"rotation" context:NULL];
+    
       [UIView setAnimationDuration:0.5];
+    
       cell.transform = CGAffineTransformMakeTranslation(0.f, 0);
       cell.alpha = 1;
       cell.layer.shadowOffset = CGSizeMake(0, 0);
       [UIView commitAnimations];
+    
 }
   
 
@@ -387,5 +393,15 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
 {
     _BlurImage.hidden=YES;
     _LogOutView.hidden=YES;
+}
+- (IBAction)LabAction:(id)sender {
+    
+    LabViewController *add =
+    [self.storyboard instantiateViewControllerWithIdentifier:@"LabViewController"];
+
+       [self.navigationController pushViewController:add animated:YES];
+    
+}
+- (IBAction)SeeAction:(id)sender {
 }
 @end

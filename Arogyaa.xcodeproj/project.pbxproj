@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84607A9426D8E6FA00A4B7CF /* LabCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84607A9326D8E6FA00A4B7CF /* LabCollectionViewCell.m */; };
+		84607A9926D8FA7100A4B7CF /* SeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84607A9826D8FA7100A4B7CF /* SeeViewController.m */; };
 		8467F57926D4FC7000D1B90D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F57826D4FC7000D1B90D /* AppDelegate.m */; };
 		8467F57C26D4FC7000D1B90D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F57B26D4FC7000D1B90D /* SceneDelegate.m */; };
 		8467F57F26D4FC7000D1B90D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F57E26D4FC7000D1B90D /* ViewController.m */; };
@@ -56,6 +58,7 @@
 		8499560326D756E400761635 /* NVBnbCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955F426D756E400761635 /* NVBnbCollectionViewLayout.m */; };
 		8499560426D756E400761635 /* NVBnbCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955F626D756E400761635 /* NVBnbCollectionView.m */; };
 		8499560526D756E400761635 /* NinaPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849955FA26D756E400761635 /* NinaPagerView.m */; };
+		8499563C26D788BB00761635 /* LabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499563B26D788BB00761635 /* LabViewController.m */; };
 		84B86CD926D5FB880032399A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86CD826D5FB880032399A /* HomeViewController.m */; };
 		84B86CE726D60A1B0032399A /* SliderBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B86CE526D60A1B0032399A /* SliderBanner.xib */; };
 		84B86CE826D60A1B0032399A /* SliderBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B86CE626D60A1B0032399A /* SliderBanner.m */; };
@@ -70,6 +73,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84607A9226D8E6FA00A4B7CF /* LabCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabCollectionViewCell.h; sourceTree = "<group>"; };
+		84607A9326D8E6FA00A4B7CF /* LabCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabCollectionViewCell.m; sourceTree = "<group>"; };
+		84607A9726D8FA7100A4B7CF /* SeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeeViewController.h; sourceTree = "<group>"; };
+		84607A9826D8FA7100A4B7CF /* SeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeViewController.m; sourceTree = "<group>"; };
 		8467F57426D4FC7000D1B90D /* Arogyaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arogyaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467F57726D4FC7000D1B90D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8467F57826D4FC7000D1B90D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -164,6 +171,8 @@
 		849955F926D756E400761635 /* NVBnbCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBnbCollectionView.h; sourceTree = "<group>"; };
 		849955FA26D756E400761635 /* NinaPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaPagerView.m; sourceTree = "<group>"; };
 		849955FB26D756E400761635 /* NVBnbCollectionViewParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBnbCollectionViewParallaxCell.h; sourceTree = "<group>"; };
+		8499563A26D788BB00761635 /* LabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabViewController.h; sourceTree = "<group>"; };
+		8499563B26D788BB00761635 /* LabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabViewController.m; sourceTree = "<group>"; };
 		84B86CD726D5FB880032399A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		84B86CD826D5FB880032399A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		84B86CE426D60A1A0032399A /* SliderBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBanner.h; sourceTree = "<group>"; };
@@ -198,6 +207,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84607A9626D8FA5800A4B7CF /* SeeMoreLab */ = {
+			isa = PBXGroup;
+			children = (
+				84607A9726D8FA7100A4B7CF /* SeeViewController.h */,
+				84607A9826D8FA7100A4B7CF /* SeeViewController.m */,
+			);
+			name = SeeMoreLab;
+			sourceTree = "<group>";
+		};
 		8467F56B26D4FC7000D1B90D = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +235,8 @@
 		8467F57626D4FC7000D1B90D /* Arogyaa */ = {
 			isa = PBXGroup;
 			children = (
+				84607A9626D8FA5800A4B7CF /* SeeMoreLab */,
+				8499563526D7888C00761635 /* LabTest */,
 				849955E726D756BA00761635 /* PaggerView */,
 				84B86DB726D65C8E0032399A /* Consult */,
 				84B86D0A26D621150032399A /* Navigation */,
@@ -390,6 +410,17 @@
 			name = PaggerView;
 			sourceTree = "<group>";
 		};
+		8499563526D7888C00761635 /* LabTest */ = {
+			isa = PBXGroup;
+			children = (
+				8499563A26D788BB00761635 /* LabViewController.h */,
+				84607A9226D8E6FA00A4B7CF /* LabCollectionViewCell.h */,
+				84607A9326D8E6FA00A4B7CF /* LabCollectionViewCell.m */,
+				8499563B26D788BB00761635 /* LabViewController.m */,
+			);
+			path = LabTest;
+			sourceTree = "<group>";
+		};
 		84B86CD626D5F7A30032399A /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -527,11 +558,13 @@
 				84B86CEC26D60B3F0032399A /* SymptomCollectionViewCell.m in Sources */,
 				8467F59E26D4FCB700D1B90D /* OtpViewController.m in Sources */,
 				8467F5F326D50D3700D1B90D /* SDWebImageDownloader.m in Sources */,
+				84607A9426D8E6FA00A4B7CF /* LabCollectionViewCell.m in Sources */,
 				8467F57C26D4FC7000D1B90D /* SceneDelegate.m in Sources */,
 				8467F5E826D50D3700D1B90D /* NSData+ImageContentType.m in Sources */,
 				8467F59626D4FCA500D1B90D /* LoginViewController.m in Sources */,
 				8467F5E926D50D3700D1B90D /* SDImageCache.m in Sources */,
 				8467F5F226D50D3700D1B90D /* UIImageView+WebCache.m in Sources */,
+				8499563C26D788BB00761635 /* LabViewController.m in Sources */,
 				84B86CF026D60B540032399A /* topCollectionViewCell.m in Sources */,
 				8499560126D756E400761635 /* ReviewTableViewCell.m in Sources */,
 				84B86D1226D621B40032399A /* MenuViewController.m in Sources */,
@@ -551,6 +584,7 @@
 				8467F5FC26D50F9600D1B90D /* ForgetViewController.m in Sources */,
 				84B86CD926D5FB880032399A /* HomeViewController.m in Sources */,
 				8499560326D756E400761635 /* NVBnbCollectionViewLayout.m in Sources */,
+				84607A9926D8FA7100A4B7CF /* SeeViewController.m in Sources */,
 				8467F5F626D50D3700D1B90D /* MKAnnotationView+WebCache.m in Sources */,
 				8467F5B926D50C7300D1B90D /* CountryCell.m in Sources */,
 				84B86CE826D60A1B0032399A /* SliderBanner.m in Sources */,
